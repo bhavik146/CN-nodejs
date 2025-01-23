@@ -1,1 +1,0 @@
-console.log("Hello I am learnin Node JS which is a runtime for JS");

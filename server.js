@@ -9,7 +9,7 @@ const http = require("http");
 const server = http.createServer((request,response)=>{
     console.log(request.url);
 
-    response.write("welcome to the server ");
+    response.write("welcome to the server. ");
 
     if(request.url == '/product'){
         // response ends
@@ -27,8 +27,3 @@ const server = http.createServer((request,response)=>{
 server.listen(3100, ()=>{
     console.log("Server is listening on port 3100");
 });
-
-// console.log("Server is listening on port 3100");
-
-
-// https://github.com/bhavik146/CN-nodejs.git
