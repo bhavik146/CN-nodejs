@@ -25,5 +25,5 @@ const server = http.createServer((request,response)=>{
 // 3. Specify a port to listen to client requests
 
 server.listen(3100, ()=>{
-    console.log("Server is listening on port 3100");
+    console.log("Server is listening on port 3100.");
 });

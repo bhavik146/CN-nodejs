@@ -1,0 +1,30 @@
+{
+  "name": "cn-nodejs",
+  "version": "1.0.0",
+  "description": "learnin nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhavik146/CN-nodejs.git"
+  },
+  "keywords": [
+    "node",
+    "npm"
+  ],
+  "author": "Bhavik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhavik146/CN-nodejs/issues"
+  },
+  "homepage": "https://github.com/bhavik146/CN-nodejs#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "mongodb": "^6.12.0"
+  }
+}
